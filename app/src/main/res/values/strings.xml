@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dev Community</string>
+    <string name="dev">Dev</string>
+    <string name="register_activity">Register Or Login</string>
+
+    <string name="community">Community</string>
+</resources>
