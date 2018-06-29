@@ -1,5 +1,6 @@
 package ir.dev_community.devcommunity
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -43,7 +44,7 @@ class SplashActivity : AppCompatActivity(), Animation.AnimationListener {
     override fun onAnimationEnd(animation: Animation?) {
         when (animation) {
             anim1 -> AnimateDevCommunity()
-            progressBarAnim -> Log.d(RaptorTAG, " ")
+            progressBarAnim -> startNextActivity()
             else -> AnimateProgressBar()
         }
     }
@@ -80,5 +81,12 @@ class SplashActivity : AppCompatActivity(), Animation.AnimationListener {
 
         devAnim.setAnimationListener(this)
         communityAnim.setAnimationListener(this)
+    }
+
+    private fun startNextActivity(){
+        //todo: Handle Login, Or Main Activity
+        startActivity(Intent(this , RegisterActivity::class.java))
+
+        finish()
     }
 }

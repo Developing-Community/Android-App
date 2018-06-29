@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">Dev Community</string>
-    <string name="dev">Dev</string>
+    <string name="dev">      Dev</string>
     <string name="register_activity">Register Or Login</string>
-
     <string name="community">Community</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="password2">Re type Password</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="input_error">Check Your Input</string>
 </resources>
